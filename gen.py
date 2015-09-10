@@ -8,7 +8,6 @@ lbase = path.join('lib', 'fbuild')
 lib = path.realpath(path.join(fbuild, lbase))
 sys.path.append(lib)
 import fbuild
-ver = fbuild.__version__
 
 def tar_add_mem(t, p, d):
     i = tarfile.TarInfo(p)
